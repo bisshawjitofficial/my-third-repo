@@ -60,3 +60,17 @@
     border: none;
     border-radius: 3px;
 }
+.about-containar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+#down{
+    margin-top: 20px;
+}
