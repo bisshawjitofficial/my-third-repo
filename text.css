@@ -70,7 +70,67 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 #down{
     margin-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 290px;
+    box-shadow: 4px 4px 20px gray;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color:white ;
+    border-radius: 5px;
+}
+.icon{
+    width: 100px;
+    
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 07px;
+}
+.box-titel{
+    padding: 10px;
+    font-size: 25px;
+}
+.box-descripsion{
+    padding: 10px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 50vh;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #111111, #090909);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#up-down{
+    background-image: url("./images/background.png"), linear-gradient(45deg, #111111, #090909);
+}
+.footer-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 35vh;
+}
+#footer-descripsion{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
 }
